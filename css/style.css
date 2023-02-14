@@ -31,6 +31,17 @@ header a:hover{
     display: inline-block;
 }
 
+.conta:hover{
+    background-color: #347ff8;
+}
+
+.pico:hover{
+    background-color: #347ff8;
+}
+
+.partner:hover{
+    background-color: #f8f7f7;
+}
 /* header */
 header{
     position: fixed;
