@@ -95,7 +95,7 @@ a{
 
 .text{
     
-    width: 35%;
+    width: 38%;
     font-size: 1vw;
 }
 
@@ -149,7 +149,9 @@ section{
     font-size: 1vw;
 }
 
-
+.per{
+    margin: 1.5vw 0;
+}
 
 .colu{
     position: relative;
