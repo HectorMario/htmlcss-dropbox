@@ -23,6 +23,14 @@ button:hover{
     color: #0061FF;
 }
 
+header a:hover{
+    border-bottom: black 2px solid;
+}
+
+.tutto:hover .hove{
+    display: inline-block;
+}
+
 /* header */
 header{
     position: fixed;
@@ -41,6 +49,7 @@ header{
     display: flex;
     align-items: center;
     gap: 30px;
+    margin: 0 2vw;
 }
 
 .right{
@@ -50,9 +59,24 @@ header{
 }
 
 
-ul{
-    gap: 30px;
+ul{ 
+    gap: 1vw;
     display: flex;
+}
+
+header li{
+    display: flex;
+    list-style-type: none;
+    height: 70px;
+    align-items: center;
+    padding: 0 2vw;
+}
+
+header a{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    color: black;
 }
 
 li{
@@ -62,6 +86,14 @@ li{
 
 a{
     text-decoration: none;
+}
+
+.pico{
+    background-color: #0061FF;
+    border-radius: none;
+    border: none;
+    padding: .5vw 2vw;
+    color: #fff;
 }
 
 /* /header */
@@ -368,11 +400,20 @@ ul.check{
     border-bottom: 1px solid black;
 }
 
-.busi{
+.tutto{
     border-bottom: 1px solid black;
+}
+
+.busi{
     display: flex;
     padding: 2vw 0;
     gap: 18vw;
+}
+
+.hove{
+    display: none;
+    font-size: 1vw;
+    margin-bottom: 2vw;
 }
 
 /* /designit */
@@ -407,6 +448,7 @@ footer{
 .fot{
     width: 80%;
     height: 100%;
+    margin-top: 5vw;
 }
 
 .si{
