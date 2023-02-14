@@ -40,9 +40,10 @@ header a:hover{
 }
 
 .partner:hover{
-    background-color: #f8f7f7;
+    background-color: rgb(247, 247, 247);
 }
 /* header */
+
 header{
     position: fixed;
     display: flex;
@@ -169,9 +170,29 @@ main{
     flex-direction: column;
 }
 
+h2{
+    font-weight: 700;
+    font-size: 2vw;
+}
+
 section{
     width: 70%;
     margin-top: 80px;
+}
+
+input{
+    display: inline-block;
+}
+
+div.check{
+    margin-top: 2vw;
+    font-weight:700;
+    display: flex;
+    gap: 4px;
+}
+
+span.prezzi{
+    font-weight: bolder;
 }
 
 .up{
